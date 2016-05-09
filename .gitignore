@@ -1,1 +1,3 @@
 todo.symlink/*.txt
+berkshelf.symlink/*
+!berkshelf.symlink/config.json
