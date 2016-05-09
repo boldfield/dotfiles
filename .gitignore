@@ -1,3 +1,5 @@
 todo.symlink/*.txt
 berkshelf.symlink/*
 !berkshelf.symlink/config.json
+vim.symlink/_backup/
+vim.symlink/_temp/
