@@ -1,0 +1,37 @@
+[user]
+	name = Brian Oldfield
+	email = brian@oldfield.io
+[github]
+    user = boldfield
+[alias]
+    amend = commit --verbose --amend
+    br = branch -a
+    co = checkout
+    clear = !git checkout -f && git clean -f
+    cf = clean -f
+    d = diff
+    dc = diff --cached
+    f = fetch --prune
+    p = pull
+    up = !git-reup
+    pp = pull --prune
+    pr = pull --rebase --prune
+    l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    s = status -sb
+    who = shortlog -s -n --
+    count   = !git shortlog -sn
+[core]
+    excludesfile = ~/.gitignore
+	editor = vim -f
+[color]
+    ui = true
+[apply]
+    whitespace = nowarn
+[branch]
+    autosetuprebase = always
+[mergetool]
+	keepBackup = true
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
