@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/boldfield/Library/Logs/Homebrew/pyenv-virtualenvwrapper'
+let g:netrw_dirhist_2='/usr/local/opt/pyenv-virtualenvwrapper'
+let g:netrw_dirhist_3='/usr/local/opt/pyenv-virtualenvwrapper/bin'
+let g:netrw_dirhist_4='/Users/boldfield/Work/chef/cookbooks/base-mac-os/recipes'
+let g:netrw_dirhist_5='/Users/boldfield/Work/chef/forks/divvy-chef/spec/support/resource'
+let g:netrw_dirhist_6='/Users/boldfield/Work/chef/forks/divvy-chef/spec/support'
+let g:netrw_dirhist_7='/Users/boldfield/Work/chef/forks/divvy-chef/spec/support/resource'
+let g:netrw_dirhist_8='/Users/boldfield/Work/chef/forks/divvy-chef/.kitchen'
