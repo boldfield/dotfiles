@@ -7,3 +7,4 @@ global/dot.berkshelf.symlink/cookbooks/
 global/dot.vim.symlink/_temp/
 global/dot.vim.symlink/_backup/
 global/dot.todo.symlink/*.txt
+global/dot.vim.symlink/.netrwhist
