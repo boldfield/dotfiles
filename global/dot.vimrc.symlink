@@ -1,5 +1,5 @@
 " Load pathogen
-call pathogen#infect()
+" call pathogen#infect()
 
 ""
 "" Basic Setup
@@ -218,7 +218,7 @@ au Filetype html,xml,xsl source ~/.vim/scripts/closetag.vim
 """ Temp Modifications
 """
 set t_Co=256
-colorscheme zenburn
+colorscheme murphy
 
 """
 " Tab completion
